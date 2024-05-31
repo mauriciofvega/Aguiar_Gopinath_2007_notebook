@@ -1,0 +1,33 @@
+Starting Dynare (version 6.1).
+Calling Dynare with arguments: none
+Preprocessing time: 0h00m00s.
+warning: Some of the parameters have no value (b_star, r_star) when using stoch_simul. If these parameters are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to solve the model. Note that simul, perfect_foresight_setup, and perfect_foresight_solver do not automatically call the steady state file.
+
+MODEL SUMMARY
+
+  Number of variables:         21
+  Number of stochastic shocks: 2
+  Number of state variables:   5
+  Number of jumpers:           4
+  Number of static variables:  15
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_z     eps_g
+eps_z        0.000095  0.000000
+eps_g        0.000000  0.000754
+
+
+ Table 5 - Moments Mexico 
+            sigma(y) 	 2.80
+      sigma(delta y) 	 2.03
+   sigma(c)/sigma(y) 	 1.10
+   sigma(i)/sigma(y) 	 2.37
+  sigma(nx)/sigma(y) 	 0.61
+              rho(y) 	 0.77
+        rho(delta y) 	 0.10
+           rho(y,nx) 	 -0.42
+            rho(y,c) 	 0.90
+            rho(y,i) 	 0.92
+Total computing time : 0h00m09s
+Note: warning(s) encountered in MATLAB/Octave code
